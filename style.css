@@ -74,7 +74,7 @@ li {
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
-    justify-content:space-evenly;
+    justify-content:space-around;
     padding: 0;
     margin: 0;
 }
@@ -82,9 +82,8 @@ li {
 
 #tricks ul > li {
     background-color: beige;
-    width: 75px;
     margin: 10px; 
-    text-align: left;
+    text-align: center;
     line-height: 75px;
     font-size: 20px;
 }

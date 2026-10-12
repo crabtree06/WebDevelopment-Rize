@@ -8,20 +8,8 @@ h1 {
     text-align : center;
 }
 /* font size and alignment of h1 headings */
-body {
-    background-color : beige
-}
-/* background color for whole page */
-* {
-    font-family : sans-serif;
-}
 /* font for page */
-img {
-    width : 100%;
-    border-radius : 8px;
-    display : block;
-    margin : auto;
-}
+
 /* image sizing */
 h2 {
     font-size : 25px;
@@ -50,16 +38,7 @@ p {
     font-size: 26px;
 }
 /* subheading class font size and weight */
-.button {
-    background-color: midnightblue;
-    color : white;
-    padding : 15px;
-    text-align : right;
-    text-decoration : none;
-    font-size : 16px;
-    display : inline-block;
-    margin : 10px;
-}
+
 /* reference link attributes */
 li { 
     font-size: 15px;
@@ -70,30 +49,12 @@ li {
     text-align: center;
 }
 /* header on page 1 background color and text alignment  */
-#tricks ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content:space-around;
-    padding: 0;
-    margin: 0;
-}
+
 /* surfboard tricks flexbox */
 
-#tricks ul > li {
-    background-color: beige;
-    margin: 10px; 
-    text-align: center;
-    line-height: 75px;
-    font-size: 20px;
-}
 
-@media (max-width: 600px) {
-    #tricks ul {
-        flex-direction: column;
-        align-items: left;
-    }
-}
+
+
 
 @media (max-width: 800px) {
   body {

@@ -1,1 +1,63 @@
+header {
+    background-color : mistyrose;
+    text-align: center;
+}
+ /* text alignment and header background color */
+h1 {
+    font-size : 30px;
+    text-align : center;
+}
+/* font size and alignment of h1 headings */
+/* font for page */
 
+/* image sizing */
+h2 {
+    font-size : 25px;
+    text-align : left;
+    color : blue
+}
+/* h2 font size alignment and color */
+p {
+    text-align: left;
+}
+/* paragraph alignment */
+.header2 {
+    color: darkgrey;
+}
+/* header 2 calss color */
+.olist {
+    font-size : 23px;
+}
+/* olist class font sizing */
+#information {
+    font-size: 12px;
+}
+/* information id font size */
+.subheader {
+    font-weight: bold;
+    font-size: 26px;
+}
+/* subheading class font size and weight */
+
+/* reference link attributes */
+li { 
+    font-size: 15px;
+}
+/* list font size */
+#main_page_header {
+    background-color: mistyrose;
+    text-align: center;
+}
+/* header on page 1 background color and text alignment  */
+
+/* surfboard tricks flexbox */
+
+
+
+
+
+@media (max-width: 800px) {
+  body {
+    font-size: 16px;
+  }  
+}
